@@ -18,29 +18,36 @@ string_teachers = "4"
 numberDogs = 0
 
 # EXAMPLE: print the result of the comparison: is number_seachers greater than number_students?
-puts "Is number_teachers greater than number_students?", number_teachers > number_students
+# puts "Is number_teachers greater than number_students?", number_teachers > number_students
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
+puts '1', number_teachers < number_students
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
+puts '2', number_teachers == string_teachers
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
+puts '3', number_teachers != number_students
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
+puts '4', number_students >= 20
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
+puts '5', number_students >= 21
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
+puts '6', number_students <= 20
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
+puts '7', number_students <= 21
 
 
 #-------------------
@@ -53,35 +60,39 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#Prints the result of the comparison: is 4 less than 9?
+#true
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+#Declaring a variable named books. Prints the result of the comparison: is 4 less than books?
+#false
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+#Declaring two variables. Prints the result of the comparison: is friends greater than siblings?
+#true
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+#Declaring two variables. Prints the result of the comparison: is attendees not equal to meals?
+#true
 
 
 #-------------------
 # PART 3: Logical Operators
 #-------------------
 
-is_hungry = true
-finished_homework = false
+# is_hungry = true
+# finished_homework = false
 
 # EXAMPLE:
 # Determine if the user is hungry and has completed their homework
-puts is_hungry && finished_homework
+# puts is_hungry && finished_homework
 # Determine if the user is hungry or has completed their homework
-puts is_hungry || finished_homework
+# puts is_hungry || finished_homework
 
 loves_to_play = true
 loves_dog_park = false
@@ -90,15 +101,17 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts '8', loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
+puts '9', loves_to_play && loves_dog_park
 
 
 # Determine if the dog loves to play or loves the dog park
-
+puts '10', loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts '11', loves_to_play && age < 1
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: It evaluated to false because the dog is not a puppy (less than a year old).
