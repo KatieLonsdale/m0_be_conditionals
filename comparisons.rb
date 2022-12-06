@@ -115,3 +115,6 @@ puts '11', loves_to_play && age < 1
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER: It evaluated to false because the dog is not a puppy (less than a year old).
+
+#PS - I added numbers at the beginning of each printed statement because all the answers in the file printed out at once
+# and I wanted to be able to keep track of which was which.
